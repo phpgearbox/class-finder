@@ -19,7 +19,7 @@ use Gears\IClassFinder;
 use Gears\String\Base;
 use PHPUnit\Framework\TestCase;
 
-class ClassFinderTestTest extends TestCase
+class ClassFinderTest extends TestCase
 {
     /**
      * @var string

@@ -72,6 +72,5 @@ foreach ($finder->namespace('Foo\\Bar') as $filepath => $fqcn)
 }
 ```
 
-
 --------------------------------------------------------------------------------
 Developed by Brad Jones - brad@bjc.id.au
