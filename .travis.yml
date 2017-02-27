@@ -6,7 +6,7 @@ php:
   - "7.0"
 
 install:
-    - "composer install"
+    - "composer install --ignore-platform-reqs"
 
 before_script:
     - "mkdir -p ./build/logs"
