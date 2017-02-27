@@ -1,12 +1,11 @@
 language: php
 
 php:
-  - "hhvm"
   - "7.1"
   - "7.0"
 
 install:
-    - "composer install --ignore-platform-reqs"
+    - "composer install"
 
 before_script:
     - "mkdir -p ./build/logs"
