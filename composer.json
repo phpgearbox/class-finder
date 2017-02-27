@@ -1,0 +1,33 @@
+{
+    "name": "gears/class-finder",
+    "description": "Utility class to help you discover other classes / namespaces based on the composer auto loader.",
+    "homepage": "https://github.com/phpgearbox/class-finder",
+    "keywords": ["class", "finder", "discover", "reflection"],
+    "license": "MIT",
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Gears\\": "src"
+        }
+    },
+    "autoload-dev":
+    {
+        "psr-4":
+        {
+            "Gears\\Tests\\": "tests"
+        }
+    },
+    "require":
+    {
+        "php": "^7.0",
+        "gears/string": "^1.1",
+        "symfony/finder": "^3.2"
+    },
+    "require-dev":
+    {
+        "consolidation/robo": "^1.0",
+        "phpunit/phpunit": "^6.0",
+        "satooshi/php-coveralls": "^1.0"
+    }
+}

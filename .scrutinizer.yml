@@ -1,0 +1,50 @@
+filter:
+    excluded_paths:
+        - 'tests/*'
+        - 'RoboFile.php'
+checks:
+    php:
+        uppercase_constants: true
+        properties_in_camelcaps: true
+        parameters_in_camelcaps: true
+        parameter_doc_comments: true
+        return_doc_comments: true
+        optional_parameters_at_the_end: true
+        no_goto: true
+        function_in_camel_caps: true
+        fix_line_ending: true
+        classes_in_camel_caps: true
+        avoid_todo_comments: true
+        avoid_fixme_comments: true
+
+coding_style:
+    php:
+        spaces:
+            other:
+                after_type_cast: false
+        braces:
+            classes_functions:
+                class: new-line
+                function: new-line
+                closure: new-line
+            if:
+                opening: new-line
+                else_on_new_line: true
+            for:
+                opening: new-line
+            while:
+                opening: new-line
+            do_while:
+                opening: new-line
+                while_on_new_line: true
+            switch:
+                opening: new-line
+            try:
+                opening: new-line
+                catch_on_new_line: true
+                finally_on_new_line: true
+        upper_lower_casing:
+            keywords:
+                general: lower
+            constants:
+                true_false_null: lower
