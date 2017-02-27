@@ -3,7 +3,6 @@
 [![Latest Stable Version](https://poser.pugx.org/gears/class-finder/v/stable.svg)](https://packagist.org/packages/gears/class-finder)
 [![Total Downloads](https://poser.pugx.org/gears/class-finder/downloads.svg)](https://packagist.org/packages/gears/class-finder)
 [![License](https://poser.pugx.org/gears/class-finder/license.svg)](https://packagist.org/packages/gears/class-finder)
-[![HHVM Tested](http://hhvm.h4cc.de/badge/gears/class-finder.svg?style=flat)](http://hhvm.h4cc.de/package/gears/class-finder)
 [![Coverage Status](https://coveralls.io/repos/github/phpgearbox/class-finder/badge.svg?branch=master)](https://coveralls.io/github/phpgearbox/class-finder?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/phpgearbox/class-finder/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/phpgearbox/class-finder/?branch=master)
 
