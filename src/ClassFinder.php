@@ -156,7 +156,7 @@ class ClassFinder implements IClassFinder
         foreach ($this->composer->getClassMap() as $fqcn => $file)
         {
             if (!is_string($file)){
-              continue;
+                continue;
             }
           
             if (Str::s($fqcn)->is($this->namespace.'*'))
